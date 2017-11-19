@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pronoormail.DraftSendActivity" >
+
+    <item
+        android:id="@+id/Attachment"
+        android:icon="@drawable/a"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Attach"/>
+    <item
+        android:id="@+id/Star"
+        android:icon="@android:drawable/star_on"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Save"/>
+     <item
+        android:id="@+id/Send"
+        android:icon="@android:drawable/ic_menu_send"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Send"/>
+
+</menu>

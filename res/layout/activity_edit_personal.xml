@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+            android:id="@+id/linearPersonalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+			
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewFname"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="FirstName"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/EdtTextFname1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewLname"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="LastName"
+                  android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/EditTextLname1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewDOB"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Date Of Birth"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/EditTextDOB1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewCont"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Contact No"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/Editcont1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+             <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewCountry"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                  android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/EditCountry1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+             <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewState"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/EditState1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+             <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewCity"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <EditText
+                android:id="@+id/EditCity1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    
+    
+</LinearLayout>

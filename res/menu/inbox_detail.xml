@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pronoormail.InboxDetailActivity" >
+
+    <item
+        android:id="@+id/Options"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        app:showAsAction="always">
+        <menu>
+            		<item
+                		android:id="@+id/Reply"
+                		android:orderInCategory="100"
+                		android:showAsAction="ifRoom|withText"
+                		android:icon="@drawable/reply"
+                		android:title="Reply"/>
+            		<item
+                		android:id="@+id/Forward"
+                		android:orderInCategory="100"
+                		android:icon="@drawable/forward"
+                		android:showAsAction="ifRoom|withText"
+                		android:title="Forward"/>
+            		<item
+                		android:id="@+id/Download"
+                		android:orderInCategory="100"
+                		android:icon="@drawable/download"
+                		android:showAsAction="ifRoom|withText"
+                		android:title="Download Attachment"/>
+         </menu>
+     </item>
+        
+
+</menu>

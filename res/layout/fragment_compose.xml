@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="To :">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextCcBcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="Cc/Bcc" />
+
+            <EditText
+                android:id="@+id/editTextSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" 
+                android:hint="Subject :"/>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Message :" />
+                    
+                </LinearLayout>
+            </ScrollView>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/list_selector" >
+
+            
+            <ImageView
+                android:id="@+id/imageViewAttach"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/a" 
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <ImageView
+                android:id="@+id/imageViewStar"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/star_64" 
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <ImageView
+                android:id="@+id/imageViewSave"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/save_64" 
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+             
+             <ImageView
+                android:id="@+id/imageViewCancel"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/cancel_1_64" 
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+             
+              <ImageView
+                android:id="@+id/imageViewSend"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_drawer" 
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+        </LinearLayout>
+
+</RelativeLayout>

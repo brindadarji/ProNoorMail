@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:inputType="textEmailAddress"
+                android:hint="To :">
+
+                <requestFocus />
+            </EditText>
+
+          
+            <EditText
+                android:id="@+id/editTextSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" 
+                android:hint="Subject :"/>
+
+             <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Message :" />
+            
+             <ListView
+        			android:id="@+id/lv_attachment_path"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content" >
+    	     </ListView>
+        </LinearLayout>
+</RelativeLayout>
+

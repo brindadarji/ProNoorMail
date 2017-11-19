@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+        
+    <LinearLayout
+        android:id="@+id/LinearSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+         <ImageView
+             android:id="@+id/imageSearch"
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:layout_marginLeft="10dp"
+             android:src="@drawable/search"
+             android:layout_gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" 
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    
+     <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+    
+    
+</LinearLayout>

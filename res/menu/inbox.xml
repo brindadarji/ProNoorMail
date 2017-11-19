@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pronoormail.InboxActivity" >
+
+    <item
+        android:id="@+id/Refresh"
+        android:icon="@drawable/refresh"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="refresh"/>
+    
+     <item
+        android:id="@+id/Search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="Search"/>
+    
+    <item
+        android:id="@+id/Delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="Delete"/>
+    <item
+        android:id="@+id/Options"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/MoveTo"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="MoveTo">
+            	<menu>
+            		<item
+                		android:id="@+id/MoveToDraft"
+                		android:orderInCategory="100"
+                		android:showAsAction="always"
+                		android:title="Move To Draft"/>
+            		<item
+                		android:id="@+id/MoveToSpam"
+                		android:orderInCategory="100"
+                		android:showAsAction="always"
+                		android:title="Move To Spam"/>
+            	</menu>
+            </item>
+        </menu>
+	</item>
+
+</menu>

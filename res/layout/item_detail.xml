@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Heelloo" 
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000">
+        </TextView>
+
+         <TextView
+            android:id="@+id/tvEx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textColor="#00002E"
+            android:textStyle="bold"
+            android:textSize="15dp" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/tvTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textColor="#00002E"
+            android:textStyle="bold"
+            android:textSize="15dp" >
+        </TextView>
+        
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="" 
+            android:gravity="center"
+            android:textColor="#000000">
+        </TextView>
+        
+         <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="" 
+            android:textColor="#000000">
+        </TextView>
+        <TextView
+            android:id="@+id/tvAttach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="" 
+            android:textColor="#000000">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

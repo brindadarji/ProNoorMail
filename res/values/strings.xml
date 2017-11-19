@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProNoorMail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item></item>
+        <item>Home</item>
+        <item>Compose</item>
+        <item>Inbox</item>
+        <item>SendBox</item>
+        <item>Spam</item>
+        <item>Pages</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/user_128</item>
+        <item>@drawable/home_64</item>
+        <item>@drawable/compose_64</item>
+        <item>@drawable/inbox_64</item>
+        <item>@drawable/sendbox_64</item>
+        <item>@drawable/spam_64</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_view_inbox_detail_fragment">ViewInboxDetailFragment</string>
+    <string name="title_activity_mine">MineActivity</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+    <string name="title_activity_compose">ComposeActivity</string>
+    <string name="title_activity_sent_box">SentBoxActivity</string>
+    <string name="title_activity_draft">DraftActivity</string>
+    <string name="title_activity_spam">SpamActivity</string>
+    <string name="title_activity_trash">TrashActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_edit_personal">EditPersonalActivity</string>
+    <string name="title_activity_edit_account">EditAccountActivity</string>
+    <string name="title_activity_inbox_detail">InboxDetailActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sent_box_detail">SentBoxDetailActivity</string>
+    <string name="title_activity_spam_detail">SpamDetailActivity</string>
+    <string name="title_activity_trash_detail">TrashDetailActivity</string>
+    <string name="title_activity_inbox_detail_main">InboxDetailMainActivity</string>
+    <string name="title_activity_responses">ResponsesActivity</string>
+    <string name="title_activity_draft_send">DraftSendActivity</string>
+    <string name="title_activity_forget_pass">ForgetPassActivity</string>
+    <string name="title_activity_forward">ForwardActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+
+</resources>

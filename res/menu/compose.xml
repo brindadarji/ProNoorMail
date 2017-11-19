@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pronoormail.ComposeActivity" >
+
+    <item
+        android:id="@+id/Attachment"
+        android:icon="@drawable/a"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Attach"/>
+    <item
+        android:id="@+id/Star"
+        android:icon="@android:drawable/star_on"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Save"/>
+     <item
+        android:id="@+id/Send"
+        android:icon="@android:drawable/ic_menu_send"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Send"/>
+     <item
+        android:id="@+id/Options"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/Save"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="Save as Draft"/>
+            <item
+                android:id="@+id/Discard"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="Discard"/>
+        </menu>
+	</item>
+</menu>

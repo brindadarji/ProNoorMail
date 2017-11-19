@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pronoormail.RegistrationActivity">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+     	
+       <ScrollView
+       android:layout_height="400dp"
+       android:layout_width="match_parent" >
+        
+          <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical">
+                
+              
+             <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Choose your Id"
+            android:layout_marginTop="15dp"
+            android:inputType="textEmailAddress">
+              <requestFocus />
+              </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/editTextFName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter FirstName"
+            android:inputType="textPersonName"/>
+
+
+        <EditText
+            android:id="@+id/editTextLName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter LastName"
+            android:inputType="textPersonName" />
+        </LinearLayout>
+        
+        <EditText
+            android:id="@+id/editTextDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Date Of Birth"
+            android:inputType="date" />
+            
+        <EditText
+            android:id="@+id/editTextContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Contact No"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Country"
+            android:ems="10" />
+
+         
+        <EditText
+            android:id="@+id/editTextState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" 
+            android:hint="Enter State"/>
+
+        <EditText
+            android:id="@+id/editTextCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter City"/>
+      
+         <EditText
+            android:id="@+id/editTextAlternateEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter an alternate email id"
+            android:inputType="textEmailAddress" />
+         
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextConPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Confirm Password"
+            android:inputType="textPassword" />
+           </LinearLayout>
+             
+        </ScrollView>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+        
+             <Button
+             android:id="@+id/btnSubmit"
+             android:layout_width="100dp"
+             android:layout_height="40dp"
+             android:text="Submit" 
+             android:layout_marginLeft="40dp"
+             android:background="@drawable/list_item_bg_pressed" 
+             android:textColor="#FFFFFF"/>
+
+         <Button
+             android:id="@+id/btnReset"
+             android:layout_width="100dp"
+             android:layout_height="40dp"
+             android:text="Reset" 
+             android:layout_marginLeft="30dp"
+             android:background="@drawable/list_item_bg_pressed" 
+             android:textColor="#FFFFFF"/>
+        </LinearLayout>
+         
+      </LinearLayout>
+    
+    
+</RelativeLayout>

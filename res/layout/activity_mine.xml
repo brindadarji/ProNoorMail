@@ -1,0 +1,324 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearUser"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#6B0024">
+        <ImageView
+            android:id="@+id/imageUser"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/profile2" />
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Brinda Darji"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textViewUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="brinda.darji@pronoor.com"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageLog"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:orientation="vertical">
+        
+        <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:content="@+id/content"
+        android:handle="@+id/LinearHandle">
+
+         <LinearLayout 
+             android:id="@+id/LinearHandle"
+             android:layout_width="50dp"
+             android:layout_height="30dp"
+             android:background="@drawable/handle_buttondown"
+             android:gravity="center">
+       		<ImageView
+            	android:id="@+id/imageHandle"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@android:drawable/arrow_up_float" />
+       </LinearLayout>
+           
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <LinearLayout
+            android:id="@+id/LinearCompose"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+           
+                <LinearLayout 
+                    android:layout_height="50dp"
+                    android:layout_width="50dp" 
+                    android:background="@drawable/circle_shape_green"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+            <ImageView
+                android:id="@+id/imageCompose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewCompose"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Compose" 
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+        	</LinearLayout>
+            
+            <LinearLayout
+            android:id="@+id/LinearInbox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+           
+                <LinearLayout 
+                    android:layout_height="50dp"
+                    android:layout_width="50dp" 
+                    android:background="@drawable/circle_shape_green"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+            		<ImageView
+                		android:id="@+id/imageInbox"
+                		android:layout_width="wrap_content"
+                		android:layout_height="wrap_content"
+                		android:src="@android:drawable/sym_action_email"/>
+            	</LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewInbox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Inbox" 
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView
+                android:id="@+id/textViewInobx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12" 
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        	</LinearLayout>
+        	
+            
+            <LinearLayout
+            android:id="@+id/LinearSendbox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+            
+                 <LinearLayout 
+                    android:layout_height="50dp"
+                    android:layout_width="50dp" 
+                    android:background="@drawable/circle_shape_green"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+            			<ImageView
+                			android:id="@+id/imageSendbox"
+                			android:layout_width="wrap_content"
+                			android:layout_height="wrap_content"
+                			android:src="@android:drawable/ic_menu_send"/>
+            	</LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewSendbox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Sent"
+                android:textSize="20dp" 
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView
+                android:id="@+id/textView1Sendbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12" 
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        	</LinearLayout>
+        	
+            <LinearLayout
+            android:id="@+id/LinearDraft"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+            
+                 <LinearLayout 
+                    android:layout_height="50dp"
+                    android:layout_width="50dp" 
+                    android:background="@drawable/circle_shape_green"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+            <ImageView
+                android:id="@+id/imageDraft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewDraft"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Draft" 
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView
+                android:id="@+id/textViewDraft1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12" 
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        	</LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:id="@+id/LinearSpam"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+            
+                <LinearLayout 
+                    android:layout_height="50dp"
+                    android:layout_width="50dp" 
+                    android:background="@drawable/circle_shape_green"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+            <ImageView
+                android:id="@+id/imageSpam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/stat_sys_warning"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewSpam"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Spam" 
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView
+                android:id="@+id/textViewSpam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12" 
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        	</LinearLayout>
+        	
+            
+            
+            <LinearLayout
+            android:id="@+id/LinearTrash"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+            
+                <LinearLayout 
+                    android:layout_height="50dp"
+                    android:layout_width="50dp" 
+                    android:background="@drawable/circle_shape_green"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+            <ImageView
+                android:id="@+id/imageTrash"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@android:drawable/ic_menu_delete"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewTrash"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Trash" 
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView
+                android:id="@+id/textViewTrash1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12" 
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        	</LinearLayout>
+        	
+            
+        </LinearLayout>
+        
+    </SlidingDrawer>
+        
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>
